@@ -1,0 +1,27 @@
+body{
+    height: 200vh;
+}
+
+div{
+    margin-bottom: 30px;
+}
+.exemplo{
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    
+    background: 
+        url('img/cachorro.jpg') /*background-image*/
+         top center / 200px 200px   /*background-position/size*/
+         no-repeat /*repeat*/
+         fixed /*attachement*/
+         padding-box /*origin*/
+         content-box /*clip*/
+         red /*color*/
+    ;
+
+}
